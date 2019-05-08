@@ -1,0 +1,522 @@
+* {
+	box-sizing: border-box;
+}
+
+.MBox {
+	background-color: #B1B1B1;
+	border-weight: 3px;
+	border: 3px solid #B1B1B1;
+	height: 87px;
+	width: 96px;
+	position: absolute;
+	top: 69px;
+	border-top-left-radius: 12px
+}
+
+.MTriangle {
+	width: 0;
+	height: 0;
+	position: absolute;
+}
+
+.MTriangleDown {
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 72px solid #FFF;
+  	top: 63px;
+	left: 36px;
+}
+
+.MTriangleUpLeft {
+	border-left: 0 solid transparent;
+	border-right: 18px solid transparent;
+	border-bottom: 69px solid #FFFFFF;
+	top: 88.5px;
+	left: 28px;
+}
+
+.MTriangleUpRight {
+	border-left: 18px solid transparent;
+	border-right: 0 solid transparent;
+	border-bottom: 69px solid #FFFFFF;
+ 	top: 88.5px;
+	left: 67px;
+}
+
+.adBody {
+    width: 39px;
+    height: 39px;
+    background-color: #B1B1B1;
+	border-top-width: 15px;
+	border-right-width: 3px;
+	border-bottom-width: 15px;
+	border-left-width: 18px;
+    border-radius: 45% 50% 50% 50%;
+    border-color: #B1B1B1;
+    border-style: solid;
+	box-sizing: content-box;
+  }
+
+.a1 {
+	position: absolute;
+	top: 89px;
+	left: 108px;
+}
+
+.a1::before {
+    content: " ";
+	height: 65px;
+	width: 19px;
+	background-color: #B1B1B1;
+	position: absolute;
+	top: -37%;
+	left: 80%;
+}
+
+.a1::after {
+	content: " ";
+    width: 33px;
+    height: 36.5px;
+    background-color: #FFF;
+    border-radius: 50% 50% 50% 50%;
+	position: absolute;
+	top: 0%;
+	left: 3%;
+}
+
+.yArmsLeft {
+	width: 19.5px;
+	height: 64px;
+  	transform: skew(24deg);
+    background: #B1B1B1;
+}
+
+.yArmsLeft::before {
+	content: " ";
+	width: 19.5px;
+	height: 75px;
+  	transform: skew(320deg);
+    background: #B1B1B1;
+	position: absolute;
+	top: 0%;
+	left: 112%;
+}
+
+.yBottomArm {
+	width: 40px;
+	height: 40px;
+	border-bottom: 19px solid #B1B1B1;
+	border-right: 19px solid #B1B1B1;
+    border-radius: 0 0 28px 0;
+	transform: rotate(10deg);
+}
+
+.y1Left {
+	position: absolute;
+	top: 90px;
+ 	left: 194px;
+}
+
+.y1Bottom {
+	position: absolute;
+	top: 150px;
+	left: 182px;
+}
+
+.d1 {
+	position: absolute;
+	top: 90px;
+	left: 248px;
+}
+
+.d1::before {
+    content: " ";
+	height: 99.5px;
+	width: 18px;
+	background-color: #B1B1B1;
+	position: absolute;
+	top: -125%;
+	left: 81%;
+	border-top-right-radius: 9px
+}
+
+.d1::after {
+	content: " ";
+    width: 33px;
+    height: 36.5px;
+    background-color: #FFF;
+    border-radius: 50% 50% 50% 50%;
+	position: absolute;
+	top: 0%;
+	left: 3%;
+}
+
+.ceBody {
+    width: 67px;
+    height: 70px;
+	border-left: 21px;
+	border-right: 21px;
+	border-top: 15px;
+	border-bottom: 17px;
+    border-radius: 50% 50% 50% 50%;
+    border-color: #B1B1B1;
+    border-style: solid;
+}
+
+.e1 {
+	position: absolute;
+	top: 89px;
+	left: 319px;
+}
+
+.e1::before {
+	content: "";
+    border-bottom: 24px solid #FFF;
+    border-left: 15px solid transparent;
+    height: 15px;
+    width: 6px;
+ 	transform: rotate(270deg);
+	position: absolute;
+	top: 41%;
+	left: 66%;
+}
+
+.e1::after {
+	content: " ";
+    width: 33px;
+    height: 15px;
+    background-color: #B1B1B1;
+	position: absolute;
+	top: 26%;
+	left: 0%;
+}
+
+.mnLeg {
+	width: 20px;
+	height: 66px;
+	background-color: #B1B1B1;
+}
+
+.mnArch {
+	width: 58px;
+	height: 54px;
+  	overflow: hidden;
+}
+
+.mnArchFoot {
+	width: 18px;
+	height: 24px;
+	background-color: #B1B1B1;
+	border-radius: 0 0 0 9px;
+}
+
+.mnLeg1 {
+    position: absolute;
+    top: 90px;
+    left: 391px;
+}
+
+.mnArch1 {
+  	position: absolute;
+  	top: 88px;
+	left: 403px;
+}
+
+.mnArch1::before {
+  	content: "";
+  	position: absolute;
+	top: 0px;
+	left: 0px;
+  	width: 24.75px;
+  	height: 95px;
+  	border-style: solid;
+	border-color: #B1B1B1;
+	border-left-width: 7.5px;
+  	border-top-width: 17px;
+  	border-right-width: 18px;
+	border-radius: 75px;
+}
+
+.mnArchFoot1 {
+    position: absolute;
+    top: 132px;
+    left: 435px;
+}
+
+.capitalA {
+	width: 21px;
+	height: 96px;
+	background-color: #B1B1B1;
+	transform: skew(337deg);
+	border-radius: 5px 15px 0 0;
+}
+
+.capitalA1 {
+	position: absolute;
+	top: 60px;
+	left: 494px;
+}
+
+.capitalA1::before {
+	content: " ";
+	width: 21px;
+	height: 96px;
+	background-color: #B1B1B1;
+	position: absolute;
+	top: 0%;
+	left: 180%;
+	transform: skew(40deg);
+	border-radius: 8px 0 0 0;
+}
+
+.capitalA1::after {
+	content: " ";
+	width: 45px;
+	height: 18px;
+	background-color: #B1B1B1;
+	position: absolute;
+	top: 60%;
+	left: 70%;
+	transform: skew(23deg);
+}
+
+.c1 {
+	position: absolute;
+	top: 89px;
+	left: 567px;
+}
+
+.c1::before {
+	content: "";
+    border-bottom: 24px solid #FFF;
+    border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+    height: 15px;
+    width: 21px;
+ 	transform: rotate(270deg);
+	position: absolute;
+	top: 0%;
+	left: 7%;
+}
+
+.a2 {
+	position: absolute;
+	top: 90px;
+	left: 628px;
+}
+
+.a2::before {
+    content: " ";
+	height: 63px;
+	width: 18px;
+	background-color: #B1B1B1;
+	position: absolute;
+	top: -35%;
+	left: 81%;
+}
+
+.a2::after {
+	content: " ";
+    width: 33px;
+    height: 36.5px;
+    background-color: #FFF;
+    border-radius: 50% 50% 50% 50%;
+	position: absolute;
+	top: 0%;
+	left: 3%;
+}
+
+.d2 {
+	position: absolute;
+	top: 90px;
+	left: 700px;
+}
+
+.d2::before {
+    content: " ";
+	height: 100px;
+	width: 18px;
+	background-color: #B1B1B1;
+	position: absolute;
+	top: -125%;
+	left: 80%;
+	border-top-right-radius: 9px
+}
+
+.d2::after {
+	content: " ";
+    width: 33px;
+    height: 37px;
+    background-color: #FFF;
+    border-radius: 50% 50% 50% 50%;
+	position: absolute;
+	top: 0%;
+	left: 3%;
+}
+
+.e2 {
+	position: absolute;
+	top: 90px;
+	left: 770px;
+}
+
+.e2::before {
+	content: "";
+    border-bottom: 24px solid #FFF;
+    border-left: 15px solid transparent;
+    height: 15px;
+    width: 6px;
+ 	transform: rotate(270deg);
+	position: absolute;
+	top: 41%;
+	left: 66%;
+}
+
+.e2::after {
+	content: " ";
+    width: 33px;
+    height: 15px;
+    background-color: #B1B1B1;
+	position: absolute;
+	top: 25%;
+	left: 0%;
+}
+
+.mnLeg2 {
+    position: absolute;
+    top: 90px;
+    left: 841px;
+}
+
+.mnArch2 {
+	position: absolute;
+  	top: 90px;
+  	left: 850px;
+}
+
+.mnArch2::before {
+  	content: "";
+  	position: absolute;
+	top: 0px;
+  	left: 3px;
+  	width: 24px;
+  	height: 90px;
+  	border-style: solid;
+  	border-color: #B1B1B1;
+  	border-left-width: 7.5px;
+  	border-top-width: 15px;
+  	border-right-width: 18px;
+  	border-radius: 75px;
+}
+
+.mnArchFoot2 {
+    position: absolute;
+    top: 132px;
+    left: 884.5px;
+}
+
+.mnArch3 {
+    position: absolute;
+    top: 90px;
+    left: 895px;
+}
+
+.mnArch3::before {
+  	content: "";
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 24px;
+  	height: 90px;
+  	border-style: solid;
+  	border-color: #B1B1B1;
+  	border-left-width: 7.5px;
+  	border-top-width: 15px;
+  	border-right-width: 18px;
+  	border-radius: 75px;
+}
+
+.mnArchFoot3 {
+    position: absolute;
+    top: 132px;
+    left: 926.5px;
+}
+
+.y2Left {
+	position: absolute;
+	top: 90px;
+ 	left: 957px;
+}
+
+.y2Bottom {
+	position: absolute;
+	top: 150px;
+	left: 945px;
+}
+
+.logoBackground {
+  	width: 220px;
+  	height: 220px;
+  	background: #288FB0;
+  	border-color: #94BA66;
+  	border-style: solid;
+  	border-width: 0px 0px 0px 112.5px;
+  	border-radius: 100%;
+  	position: absolute;
+  	top: 24.5px;
+  	left: 1033px;
+}
+
+.logoTrapezoid {
+    border-bottom: 54px solid #295074;
+	border-radius: 0 0 100% 100%;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+	width: 131px;
+	position: absolute;
+	top: 190px;
+	left: 1078px;
+}
+
+.logoTriangle {
+    width: 90px;
+    height: 90px;
+	background-color: #F17324;
+    position: absolute;
+    top: 90px;
+    left: 1100px;
+}
+
+.capitalA2 {
+	position: absolute;
+	top: 25px;
+ 	left: 1072px;
+	height: 216px;
+	width: 56px;
+	background-color: #FFF;
+	transform: skew(335deg);
+	border-radius: 15px 30px 0 0;
+}
+
+.capitalA2::before {
+	content: " ";
+	width: 56px;
+	height: 219px;
+	background-color: #FFF;
+	position: absolute;
+	top: 0%;
+	left: 162%;
+	transform: skew(42deg);
+	border-radius: 30px 0 0 0;
+}
+
+.capitalA2::after {
+	content: " ";
+	width: 105px;
+	height: 39px;
+	background-color: #FFF;
+	position: absolute;
+	top: 63%;
+	left: 75%;
+	transform: skew(15deg);
+}
